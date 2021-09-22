@@ -1,0 +1,120 @@
+export const projectItems = [
+  {
+    name: "Prix d'achat",
+    symbol: "€",
+    min: 0,
+    max: 1000000000,
+    value: 120000,
+    id: "price",
+  },
+  {
+    name: "Travaux et ameublements",
+    symbol: "€",
+    min: 0,
+    max: 1000000000,
+    value: 5000,
+    id: "work",
+  },
+  {
+    name: "Frais de notaire",
+    symbol: "%",
+    min: 0,
+    max: 1000000000,
+    value: 8,
+    id: "notaire",
+  },
+  {
+    name: "Commission agence",
+    symbol: "€",
+    min: 0,
+    max: 1000000000,
+    value: 2000,
+    id: "commission",
+  },
+  {
+    name: "Apport",
+    symbol: "€",
+    min: 0,
+    max: 1000000000,
+    value: 10000,
+    id: "apport",
+  },
+  {
+    name: "Loyer mensuel",
+    symbol: "€",
+    min: 0,
+    max: 1000000000,
+    value: 800,
+    id: "rent",
+  },
+  {
+    name: "Durée de l'emprunt",
+    symbol: "an(s)",
+    min: 0,
+    max: 30,
+    value: 30,
+    id: "morgageLength",
+  },
+  {
+    name: "Taux d'intérêt (assurance comprise)",
+    symbol: "%",
+    min: 0,
+    max: 10,
+    value: 1,
+    id: "morgageInterest",
+  },
+  {
+    name: "Charges Copropriété (annuelle)",
+    symbol: "€",
+    min: 0,
+    max: 1000000,
+    value: 800,
+    id: "chargeCopro",
+  },
+  {
+    name: "Taxe Foncière",
+    symbol: "€",
+    min: 0,
+    max: 1000000,
+    value: 800,
+    id: "taxeFonciere",
+  },
+];
+
+export const renta = [
+  { name: "Rentabilité nette", symbol: "%", value: "10", id: "renta" },
+  { name: "Loyer net", symbol: "€", value: "400", id: "rentNet" },
+];
+
+export const registerFormData = [
+  {
+    id: "firstname",
+    type: "text",
+    label: "Prénom",
+    placeholder: "John",
+  },
+  {
+    id: "lastname",
+    type: "text",
+    label: "Nom",
+    placeholder: "Doe",
+  },
+  {
+    id: "email",
+    type: "email",
+    label: "Email",
+    placeholder: "johndoe@gmail.com",
+  },
+  {
+    id: "password",
+    type: "password",
+    label: "Mot de passe",
+    placeholder: "************",
+  },
+  {
+    id: "c_password",
+    type: "password",
+    label: "Confirm password",
+    placeholder: "************",
+  },
+];
